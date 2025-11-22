@@ -22,6 +22,9 @@
 ## ignore whole server/cache directory
 /cache/
 
+## ignore usercache
+usercache.json
+
 ## ignore spark tmp
 /plugins/spark/tmp/
 
