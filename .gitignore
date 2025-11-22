@@ -1,6 +1,8 @@
 ## ignore version history
 /version_history.json
 
+/versions/
+
 ## ignore debug folder
 /debug/
 
@@ -19,6 +21,12 @@
 
 ## ignore whole server/cache directory
 /cache/
+
+## ignore usercache
+usercache.json
+
+## ignore spark tmp
+/plugins/spark/tmp/
 
 ## ignore whole server/libraries directory
 /libraries/
