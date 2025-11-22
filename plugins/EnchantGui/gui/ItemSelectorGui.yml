@@ -1,0 +1,118 @@
+FillItem:
+  enable: true
+  item:
+    material: BLUE_STAINED_GLASS_PANE
+    damage: 10
+    amount: 1
+    display_name: ' '
+    lore:
+      - ''
+
+Gui-Settings:
+  size: 54
+  name: '&6Select An Item'
+  player-items:
+## line 2
+#    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+#    - 17
+## line 3
+#    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+#    - 26
+## line 4
+#    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+#    - 35
+## line 5
+#    - 36
+    - 37
+    - 38
+    - 39
+    - 40
+    - 41
+    - 42
+    - 43
+
+  next-page-item:
+    item:
+      material: ARROW
+      damage: 0
+      amount: 1
+      display_name: 'nächste Seite'
+      lore:
+        - ''
+    slot: 50
+  previous-page-item:
+    item:
+      material: ARROW
+      damage: 0
+      amount: 1
+      display_name: 'vorherige Seite'
+      lore:
+        - ''
+    slot: 48
+  back-item:
+    item:
+      material: OAK_DOOR
+      damage: 0
+      amount: 1
+      display_name: 'zurück'
+      lore:
+        - ''
+    slot: 45
+Gui:
+  1:
+    item:
+      material: ORANGE_STAINED_GLASS_PANE
+      damage: 0
+      amount: 1
+      display_name: ' '
+      lore:
+        - ''
+    slot: 0
+  2:
+    item:
+      material: ORANGE_STAINED_GLASS_PANE
+      damage: 0
+      amount: 1
+      display_name: ' '
+      lore:
+        - ''
+    slot: 8
+  3:
+    item:
+      material: ORANGE_STAINED_GLASS_PANE
+      damage: 0
+      amount: 1
+      display_name: ' '
+      lore:
+        - ''
+    slot: 45
+  4:
+    item:
+      material: ORANGE_STAINED_GLASS_PANE
+      damage: 0
+      amount: 1
+      display_name: ' '
+      lore:
+        - ''
+    slot: 53
