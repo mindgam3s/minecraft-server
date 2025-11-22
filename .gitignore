@@ -1,6 +1,8 @@
 ## ignore version history
 /version_history.json
 
+/versions/
+
 ## ignore debug folder
 /debug/
 
