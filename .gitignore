@@ -1,0 +1,104 @@
+## ignore version history
+/version_history.json
+
+## ignore debug folder
+/debug/
+
+## ignore dumps folder
+/dumps/
+
+## ignore '/server/logs/latest.log' as it changes quite often
+/logs/latest.log
+
+## ignore server logs
+/logs/
+/.console_history
+
+## ignore cached mojang minecraft server files
+/cache/mojang_*.jar
+
+## ignore whole server/cache directory
+/cache/
+
+## ignore whole server/libraries directory
+/libraries/
+
+## ignore all *.log files under plugins
+/plugins/**/*.log
+
+## ignore hs_err_pid*.log files
+/hs_err_pid*.log
+
+## ignore world folders
+/world/
+/world_nether/
+/world_the_end/
+
+## ignore ops.json file
+/ops.json
+
+## ignore unnecessary files
+/commands.yml
+/permissions.yml
+/eula.txt
+
+## ignore banned-ips.json
+/banned-ips.json
+
+## ignore some plugin specific locations and files
+/plugins/ProtocolLib/lastupdate
+
+## ignore dynmap pending
+/plugins/dynmap/*.pending
+
+## ignore DiscordSrv '*.old' files
+/plugins/DiscordSRV/*.old
+
+## ignore InteractiveChat '*.bak' files
+/plugins/InteractiveChat/*.bak
+
+## ignore InteractiveChatDiscordSrvAddon cache folger
+/plugins/InteractiveChatDiscordSrvAddon/cache/
+
+## ignore InteractiveChatDiscordSrvAddon assets
+/plugins/InteractiveChatDiscordSRVAddon/assets/
+/plugins/InteractiveChatDiscordSrvAddon/assets/
+/plugins/InteractiveChatDiscordSrvAddon/built-in/
+
+## ignore InteractiveChatDiscordSrvAddon hash file
+/plugins/InteractiveChatDiscordSrvAddon/hashes.json
+
+## ignore InteractiveChatDiscordSrvAddon libs
+/plugins/InteractiveChatDiscordSrvAddon/libs/
+
+## ignore bluemap specific
+##
+## world data folders!
+/plugins/BlueMap/webserver-files-linked/bluemap/data/*/hires/
+/plugins/BlueMap/webserver-files-linked/bluemap/data/*/lowres/
+## playerheads
+/plugins/BlueMap/webserver-files-linked/bluemap/assets/playerheads/
+## live player data
+/plugins/BlueMap/webserver-files-linked/bluemap/live/
+## RenderManager-State
+/plugins/BlueMap/data-files/rmstate
+## other state files
+/plugins/BlueMap/webserver-files-linked/bluemap/data/*/.rstate
+
+## ignore OreAnnouncer lib folder
+/plugins/OreAnnouncer/lib/
+
+## ignore LuckPerms sub-folders
+/plugins/LuckPerms/translations/
+/plugins/LuckPerms/libs/
+
+## ignore RandomSpawnPlus spawns file
+/plugins/RandomSpawnPlus/spawns.yml
+
+## ignore EnchantGUI whole language directory
+/plugins/EnchantGUI/languages/
+
+## ignore CMILib whole transaltions directory
+/plugins/CMILib/Translations/
+
+######################## EOF
