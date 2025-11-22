@@ -36,9 +36,6 @@
 /world_nether/
 /world_the_end/
 
-## ignore ops.json file
-/ops.json
-
 ## ignore unnecessary files
 /commands.yml
 /permissions.yml
