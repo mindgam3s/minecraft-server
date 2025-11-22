@@ -31,6 +31,9 @@ usercache.json
 ## ignore whole server/libraries directory
 /libraries/
 
+## ignore paper-remapped
+/plugins/.paper-remapped/
+
 ## ignore all *.log files under plugins
 /plugins/**/*.log
 
