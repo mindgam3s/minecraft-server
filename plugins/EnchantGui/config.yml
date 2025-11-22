@@ -1,4 +1,4 @@
-config-version: '2.7'
+config-version: '2.8'
 
 # If the plugin is not up-to-date, you will get a notification when you join the server.
 check-update: true
@@ -91,6 +91,12 @@ alias-commands:
   enable: false
   commands:
   - upgrade
+
+generation_setting:
+  # Automatically add the conflict enchantment to "ignore-conflict" section when generating the file
+  # E.g. Smite cannot be enchanted onto a sword once it has Sharpness. When this is set to true, the plugin will generate the file (if it does not exist)
+  #      and add Smite to the 'ignore-conflict' section automatically, allowing the player to enchant Smite onto a sword regardless of whether it has Sharpness.
+  ignore_enchantment_conflict: true
 
 Message:
   No-Available-Item: '&cYou don''t have any item can be enchanted.'
