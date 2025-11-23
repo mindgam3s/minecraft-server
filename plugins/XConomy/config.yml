@@ -1,0 +1,43 @@
+Settings:
+  language: English
+  check-update: false
+  mysql: false
+  refresh-time: 300
+  eco-command: true
+  disable-essentials: true
+  initial-bal: 0
+  non-player-account: false
+  cache-correction: false
+  transaction-record: true
+  semi-online-mode: false
+  username-ignore-case: false
+Currency:
+  singular-name: dollar
+  plural-name: dollars
+  integer-bal: false
+  thousands-separator: ','
+  display-format: '%balance% %currencyname%'
+  max-number: '10000000000000000'
+  rounding-mode: 0
+SQLite:
+  path: Default
+MySQL:
+  host: localhost:3306
+  user: 288e1656eaa541d8b679ef9b1064c819
+  pass: u=88yLqJAMNAqKc:E8K66A?Jb#8wpP]-A}rn]].zsGt9b2]c):+&D.-K9Y:6UUjF
+  database: aecda954676c45748cc77d896da3dc0d
+  table-suffix: ed80fca26f384124b8bc9fd3e3cd3d69
+  encoding: utf8
+  timezone: ''
+Pool-Settings:
+  usepool: false
+  maximum-pool-size: 10
+  minimum-idle: 10
+  maximum-lifetime: 180000
+  idle-timeout: 60000
+BungeeCord:
+  enable: false
+  sign: aa
+importdata-mode: false
+Thread:
+  future-timeout: 3
