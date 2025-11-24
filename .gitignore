@@ -112,4 +112,7 @@ usercache.json
 ## ignore CMILib whole transaltions directory
 /plugins/CMILib/Translations/
 
+## ignore DHSupport DB
+/plugins/DHSupport/data.sqlite
+
 ######################## EOF
